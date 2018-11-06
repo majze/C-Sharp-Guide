@@ -39,7 +39,6 @@ namespace helloworld
             Console.WriteLine($"'{convert}' is a string, {parser} is an int from a string from a double.");
 
             Console.ReadKey();
-            Console.Read();
         }
     }
 }
