@@ -30,6 +30,7 @@ namespace helloworld
             double db = precise * num;
             int cast = (int)db;
             bool isBanana = true;
+            bool isBigger = precise > num;
             
             Console.WriteLine("double is {0}, {1} is casted, and the ocean is wet: {2}", db, cast, isBanana);
 
