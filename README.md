@@ -1,5 +1,6 @@
 # C-Sharp-Tools-and-Methods
-Repository for learning useful C# code and techniques. As you can tell, it's quite the work in progress.
+Repository for learning or checking useful C# code and techniques. As you can tell, it's quite the work in progress.
+It's important to note that these examples are using [.NET Core, not .NET Framework](https://stackify.com/net-core-vs-net-framework/).
 
 ## Section 1 - EZ Mode
 ### helloWorld.cs
