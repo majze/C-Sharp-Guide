@@ -2,8 +2,8 @@
 Repository for learning useful C# code and techniques. As you can tell, it's quite the work in progress.
 
 ## Section 1 - EZ Mode
-### Title
-Text
+### helloWorld.cs
+Just the basics in this one. Simple variable types, string concatenation, and writing to console.
 
 ### Title 2
 Text
@@ -16,6 +16,6 @@ Text
 ### Title
 Text
 
-## Section 4 - Game Stu
+## Section 4 - Game Stuff
 ### Title
 Text
