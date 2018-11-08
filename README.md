@@ -6,8 +6,8 @@ It's important to note that these examples are using [.NET Core, not .NET Framew
 ### helloWorld.cs
 Just the basics in this one. Simple variable types, string concatenation, and writing to console.
 
-### Title 2
-Text
+### methods.cs
+Covers methods outside Main() and passing variable between them. If statements as well as for and while loops are mentioned. Briefly shows different exceptions for the try catch block.
 
 ## Section 2 - Methods
 ### Title
