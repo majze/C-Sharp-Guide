@@ -9,6 +9,9 @@ Just the basics in this one. Simple variable types, string concatenation, and wr
 ### methods.cs
 Covers methods outside Main() and passing variable between them. If statements as well as for and while loops are mentioned. Briefly shows different exceptions for the try catch block.
 
+### TicTacToe.cs
+Console game where 2 players compete to win. Uses 2D arrays to keep track of variables as well as some sloppy logic to check them.
+
 ## Section 2 - Classes
 ### classes (contains Person.cs && Program.cs)
 Example person class goes over methods, properties, constructors, and destructors
