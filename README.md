@@ -7,7 +7,7 @@ It's important to note that these examples are using [.NET Core, not .NET Framew
 Just the basics in this one. Simple variable types, string concatenation, and writing to console.
 
 ### Methods
-Covers methods outside Main() and passing variable between them. If statements as well as for and while loops are mentioned. Briefly shows different exceptions for the try catch block.
+Covers methods outside Main() and passing variables between them. If statements as well as for and while loops are mentioned. Briefly shows different exceptions for the try catch block.
 
 ### TicTacToe
 Console game where 2 players compete to win. Uses 2D arrays to keep track of variables as well as some sloppy logic to check them.
