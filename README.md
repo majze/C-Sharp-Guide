@@ -9,6 +9,9 @@ Just the basics in this one. Simple variable types, string concatenation, and wr
 ### [Methods](https://github.com/majze/C-Sharp-Guide/tree/master/Methods)
 Covers methods outside Main() and passing variables between them. If statements, for loops, and while loops are mentioned. Briefly shows different exceptions for the try catch block.
 
+### [Files](https://github.com/majze/C-Sharp-Guide/tree/master/Files)
+Shows how to read and write from files using System.File and StreamWriters.
+
 ### [TicTacToe](https://github.com/majze/C-Sharp-Guide/tree/master/TicTacToe)
 Console game where 2 players compete to win. Uses a 2D array to keep track of variables as well as some sloppy logic to check them.
 
@@ -22,7 +25,7 @@ Creates children of children objects from inheritence and uses methods to store 
 ### [Data](https://github.com/majze/C-Sharp-Guide/tree/master/Data)
 More on inheritance inclusing virtual functions and override functions. **Audi.cs** and **BMW.cs** are derived from **Car.cs**, which has the basic variables and functions. **M3.cs** is derived from **BMW.cs**, but would not work if it was derived from **Audi.cs** as the Audi class is sealed. Finally, **CarIDInfo.cs** is an example of how to use a "has a" relationship, which allows a class to own its own protected class.
 
-### [Files]()
+### New Topic
 
 ## Section 3 - UI Stuff
 ### Title
