@@ -7,10 +7,10 @@ It's important to note that these examples are using [.NET Core, not .NET Framew
 Just the basics in this one. Simple variable types, string concatenation, and writing to console.
 
 ### [Methods](https://github.com/majze/C-Sharp-Guide/tree/master/Methods)
-Covers methods outside Main() and passing variables between them. If statements as well as for and while loops are mentioned. Briefly shows different exceptions for the try catch block.
+Covers methods outside Main() and passing variables between them. If statements, for loops, and while loops are mentioned. Briefly shows different exceptions for the try catch block.
 
 ### [TicTacToe](https://github.com/majze/C-Sharp-Guide/tree/master/TicTacToe)
-Console game where 2 players compete to win. Uses 2D arrays to keep track of variables as well as some sloppy logic to check them.
+Console game where 2 players compete to win. Uses a 2D array to keep track of variables as well as some sloppy logic to check them.
 
 ## Section 2 - Classes
 ### [Classes](https://github.com/majze/C-Sharp-Guide/tree/master/classes)
