@@ -8,7 +8,7 @@ namespace methods
         {
             //Passing variables to methods
             //while loop
-            string time, Msg = "Lollipops are not popsicles."; ;
+            string time, Msg = "Lollipops are not popsicles.";
             int countdown = 5;
             while (countdown > 3)
             {
