@@ -1,0 +1,47 @@
+﻿<Window x:Class="WpfApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp"
+        mc:Ignorable="d"
+        Title="Main Window" Height="600" Width="400">
+    <Grid>
+        <Grid Name="TitleBox" Margin="20,60,20,440">
+            <TextBlock Name="Title" FontSize="36" FontFamily="Georgia" TextAlignment="Center">Simple Calculator!</TextBlock>
+        </Grid>
+        <Grid Name="TypeBox" Margin="20,140,20,400">
+            <TextBlock Name="NumberField" Height="20" Background="Cornsilk">0</TextBlock>
+        </Grid>
+        <Grid Name="NumPad" Margin="20,180,20,20">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Button Grid.Row="0" Grid.Column="0" Name="c7" PreviewMouseDown="CalcPress">7</Button>
+            <Button Grid.Row="0" Grid.Column="1" Name="c8" PreviewMouseDown="CalcPress">8</Button>
+            <Button Grid.Row="0" Grid.Column="2" Name="c9" PreviewMouseDown="CalcPress">9</Button>
+            <Button Grid.Row="0" Grid.Column="3" Name="cdiv" PreviewMouseDown="CalcPress">/</Button>
+            <Button Grid.Row="1" Grid.Column="0" Name="c4" PreviewMouseDown="CalcPress">4</Button>
+            <Button Grid.Row="1" Grid.Column="1" Name="c5" PreviewMouseDown="CalcPress">5</Button>
+            <Button Grid.Row="1" Grid.Column="2" Name="c6" PreviewMouseDown="CalcPress">6</Button>
+            <Button Grid.Row="1" Grid.Column="3" Name="cmul" PreviewMouseDown="CalcPress">*</Button>
+            <Button Grid.Row="2" Grid.Column="0" Name="c1" PreviewMouseDown="CalcPress">1</Button>
+            <Button Grid.Row="2" Grid.Column="1" Name="c2" PreviewMouseDown="CalcPress">2</Button>
+            <Button Grid.Row="2" Grid.Column="2" Name="c3" PreviewMouseDown="CalcPress">3</Button>
+            <Button Grid.Row="2" Grid.Column="3" Name="cmin" PreviewMouseDown="CalcPress">-</Button>
+            <Button Grid.Row="3" Grid.Column="0" Name="cent" PreviewMouseDown="CalcPress">ENTER</Button>
+            <Button Grid.Row="3" Grid.Column="1" Name="c0" PreviewMouseDown="CalcPress">0</Button>
+            <Button Grid.Row="3" Grid.Column="2" Name="cdec" PreviewMouseDown="CalcPress">.</Button>
+            <Button Grid.Row="3" Grid.Column="3" Name="cpls" PreviewMouseDown="CalcPress">+</Button>
+        </Grid>
+    </Grid>
+</Window>
